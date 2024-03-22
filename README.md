@@ -6,7 +6,7 @@ A multispectral Cloud Removal dataset
 
 Download link: https://pan.baidu.com/s/1z2SgORYz5_t94kya8CeqiQ code:bean
 
-If this project is useful to you, please cite thid paper :)
+If this project is useful to you, please cite this paper :)
 
 ```
 @article{sui2024diffusion,
