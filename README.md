@@ -16,7 +16,12 @@ Several conventional CR models could refer to [https://github.com/littlebeen/Clo
 **Test**
 
 1. Put the pre-train model into 'pre_train'
+
 ```python super_res_sample.py```
+
+**Weight**
+
+Our pre-train models on RICE2 with mn and mdsa are uploaded. [https://pan.baidu.com/s/1SvnPL7HRKqSK0zDixYpHow](https://pan.baidu.com/s/1SvnPL7HRKqSK0zDixYpHow) code：bean
 
 # CUHK-CR
 
@@ -31,6 +36,7 @@ Download link: https://pan.baidu.com/s/1z2SgORYz5_t94kya8CeqiQ code:bean
 -nir (the near-infrared images for CUHK-CR1 and CUHK-CR2)
 
 If you need image with 4 bands (RGB + nir), you could load the images in the RGB dataset and the nir dataset and combine the 4 channels together. 
+
 
 # Cite
 
