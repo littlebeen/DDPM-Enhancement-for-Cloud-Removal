@@ -11,6 +11,13 @@ Several conventional CR models could refer to [https://github.com/littlebeen/Clo
 2. Locked diffusion + Trained WA :gaussian_diffusion_enhance; unet.py: UnetModel256; locked in train_util.py line74
 3. ALL-in change train_util.py line74
 
+```python super_res_train.py```
+
+**Test**
+
+1. Put the pre-train model into 'pre_train'
+```python super_res_sample.py```
+
 # CUHK-CR
 
 A novel multispectral Cloud Removal dataset
