@@ -1,5 +1,7 @@
 # Diffusion-Enhancement-for-CR
 
+🔥 Congradualation to my collaborators and myself! This paper has been accepted by IEEE Transactions on Geoscience and Remote Sensing! It's a new start!
+
 The code for [Diffusion Enhancement for Cloud Removal in Ultra-Resolution Remote Sensing Imagery](https://arxiv.org/abs/2401.15105), which is based on [ADM](https://github.com/openai/guided-diffusion). 
 
 Several conventional CR models could refer to [https://github.com/littlebeen/Cloud-removal-model-collection](https://github.com/littlebeen/Cloud-removal-model-collection)!
