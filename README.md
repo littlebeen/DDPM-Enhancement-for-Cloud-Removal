@@ -29,7 +29,7 @@ Our pre-train models on RICE2 with mn and mdsa are uploaded. [https://pan.baidu.
 
 A novel multispectral Cloud Removal dataset
 
-Download link: https://pan.baidu.com/s/1z2SgORYz5_t94kya8CeqiQ code:bean
+Download link: [https://pan.baidu.com/s/1z2SgORYz5_t94kya8CeqiQ](https://pan.baidu.com/s/12yNH5eowjGA1fFM5sXUzBw) code:bean
 
 -CUHK-CR1 (The RGB images for thin dataset CUHK-CR1)
 
