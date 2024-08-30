@@ -1,0 +1,7 @@
+Put the pretrain mn model here which chould be found at https://pan.baidu.com/s/1lyKRG67AxM5SZEj3mhTKWA code:bean
+The name for pretrain mn model for differet datasets are
+
+RICE1->mn1.pth
+RICE2->mn2.pth
+CUHK-CR1->mnmy14.pth
+CUHK-CR2-> mnmy24.pth

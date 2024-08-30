@@ -8,6 +8,10 @@ Several conventional CR models could refer to [https://github.com/littlebeen/Clo
 
 # Usage
 
+Download the pretain e2e model (mdsa/mn as your need) and put it into guided_diffusion/couldnet/mdsa/pretrain or guided_diffusion/couldnet/mn/pretrain. The model could be found at https://pan.baidu.com/s/1lyKRG67AxM5SZEj3mhTKWA code:bean
+
+ You could choose the appropriate pretrain model as your need (Which model You want to train or test based on? memorynet or mdsa?). Must be done before training and testing
+
 **Train**
 1. Pure diffusion. respace.py:gaussian_diffusion; unet.py: UnetModel
 2. Locked diffusion + Trained WA :gaussian_diffusion_enhance; unet.py: UnetModel256; locked in train_util.py line74

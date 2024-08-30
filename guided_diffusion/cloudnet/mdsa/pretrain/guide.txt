@@ -1,0 +1,7 @@
+Put the pretrain mdsa model here which chould be found at https://pan.baidu.com/s/1lyKRG67AxM5SZEj3mhTKWA code:bean
+The name for pretrain mdsa model for differet datasets are
+
+RICE1->mdsa1.pth
+RICE2->mdsa2.pth
+CUHK-CR1->mdsamy14.pth
+CUHK-CR2-> mdsamy24.pth
