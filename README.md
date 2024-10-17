@@ -13,9 +13,21 @@ Download the pretain e2e model (mdsa/mn as your need) and put it into guided_dif
  You could choose the appropriate pretrain model as your need (Which model You want to train or test based on? memorynet or mdsa?). Must be done before training and testing
 
 **Train**
-1. Pure diffusion. respace.py:gaussian_diffusion; unet.py: UnetModel
-2. Locked diffusion + Trained WA :gaussian_diffusion_enhance; unet.py: UnetModel256; locked in train_util.py line74
-3. ALL-in change train_util.py line74
+1. Pure diffusion.
+
+change guided_diffusion/respace.py line4/5 to gaussian_diffusion
+
+change guided_diffusion/unet.py line1140 to 'class SuperResModel(UNetModel):'
+
+3. Locked diffusion + Trained WA
+
+change guided_diffusion/respace.py line4/5 to gaussian_diffusiongaussian_diffusion_enhance
+
+change guided_diffusion/unet.py 'class SuperResModel(UNetModel256):'
+
+locked in guided_diffusion/train_util.py line74
+
+5. ALL-in change train_util.py line74
 
 ```python super_res_train.py```
 
