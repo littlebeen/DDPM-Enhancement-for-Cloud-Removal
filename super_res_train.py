@@ -47,7 +47,7 @@ def main():
         logger.log("load model from "+entry)
 
     logger.log("creating data loader...")
-    data_dir = "../data/"+args.data_dir+"/train/cloud"
+    data_dir = "./data/"+args.data_dir+"/train/cloud"
     data = load_superres_data(
         data_dir,
         args.batch_size,

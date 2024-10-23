@@ -72,7 +72,7 @@ class TrainLoop:
             fp16_scale_growth=fp16_scale_growth,
         )
         # for name, param in self.model.named_parameters(): #lock diff grad
-        #     if "sjlnet" not in name:
+        #     if "wc" not in name:
         #         param.requires_grad = False
 
         self.opt = AdamW(

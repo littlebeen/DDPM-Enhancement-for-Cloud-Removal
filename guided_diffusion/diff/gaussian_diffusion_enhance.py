@@ -156,7 +156,7 @@ class GaussianDiffusion:
         )
         data=dataset.split('.')[0]
         model = dataset.split('.')[1]
-        if(data=='My14' or data=='My24'):
+        if(data=='CUHK-CR1' or data=='CUHK-CR2'):
             if(model =='mn'):
                 self.cloudnet =  MPRNet(in_c=4, out_c=4).to('cuda')
             elif(model =='mdsa'):
@@ -165,12 +165,12 @@ class GaussianDiffusion:
                 self.cloudnet =  None
 
             if(model):
-                if(data=='My14'):
+                if(data=='CUHK-CR1'):
                     self.cloudnet.load_state_dict(th.load('./guided_diffusion/cloudnet/'+model+'/pretrain/'+model+'my14.pth'),strict=True)
-                    print(model+ 'my14 is load')
-                elif(data=='My24'):
+                    print(model+ 'CUHK-CR1 is load')
+                elif(data=='CUHK-CR2'):
                     self.cloudnet.load_state_dict(th.load('./guided_diffusion/cloudnet/'+model+'/pretrain/'+model+'my24.pth'),strict=True)
-                    print(model+ 'my24 is load')
+                    print(model+ 'CUHK-CR2 is load')
             else :
                 print('pure')
 

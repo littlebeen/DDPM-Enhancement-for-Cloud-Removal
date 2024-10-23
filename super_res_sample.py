@@ -52,7 +52,7 @@ def get_image_arr(dataset):
         return ['421']
     elif(dataset =='T-Cloud'):
         return ['278','142','162','449','930','1261','1652']
-    elif(dataset=='My14' or dataset=='My24'):
+    elif(dataset=='CUHK-CR1' or dataset=='CUHK-CR2'):
         return ['4','5','7','8','36','37','65']
     else:
         return []
@@ -80,7 +80,7 @@ def sample():
     if args.use_fp16:
         model.convert_to_fp16()
     model.eval()
-    base_samples = "../data/"+args.base_samples+"/test/cloud"
+    base_samples = "./data/"+args.base_samples+"/test/cloud"
     logger.log("loading data...")
     data = load_superres_data(
         base_samples,
@@ -156,7 +156,7 @@ def create_argparser():
         num_samples=100,
         batch_size=1,
         use_ddim=True,
-        base_samples="RICE2",  #T-Cloud
+        base_samples="RICE2",  
         model_path="./pre_train",
         save_forder='test_model',
         timestep_respacing='ddim10',

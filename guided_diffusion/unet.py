@@ -1090,7 +1090,7 @@ class UNetModel256(nn.Module):
             nn.SiLU(),
             zero_module(conv_nd(dims, input_ch, out_channels, 3, padding=1)),
         )
-        self.sjlnet = WeightCaculate(
+        self.wc = WeightCaculate(
             in_channels+int(in_channels/2),
             out_channels,
             num_res_blocks,
@@ -1133,7 +1133,7 @@ class UNetModel256(nn.Module):
             h = th.cat([h, hs.pop()], dim=1)
             h = module(h, emb)
         h = h.type(x.dtype)
-        w = self.sjlnet(x,timesteps,y)
+        w = self.wc(x,timesteps,y)
         return self.out(h), w
 
 
