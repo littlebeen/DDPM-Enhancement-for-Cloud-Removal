@@ -80,7 +80,7 @@ def sample():
     if args.use_fp16:
         model.convert_to_fp16()
     model.eval()
-    base_samples = "./data/"+args.base_samples+"/test/cloud"
+    base_samples = "./data/"+args.base_samples+"/test/cloud" # The path of the dataset
     logger.log("loading data...")
     data = load_superres_data(
         base_samples,
@@ -156,12 +156,12 @@ def create_argparser():
         num_samples=100,
         batch_size=1,
         use_ddim=True,
-        base_samples="RICE2",  
+        base_samples="RICE2",  #choose from RICE2 CUHK-CR1 CUHK-CR2
         model_path="./pre_train",
         save_forder='test_model',
         timestep_respacing='ddim10',
         image_size=256,
-        cloudmodel = 'mn',
+        cloudmodel = 'mn', #choose from mdsa mn
         py=False,
     )
     n=sr_model_and_diffusion_defaults()
