@@ -25,7 +25,7 @@ change guided_diffusion/respace.py line4/5 to gaussian_diffusion
 
 change guided_diffusion/unet.py line1140 to 'class SuperResModel(UNetModel):'
 
-3. Locked diffusion + Trained WA
+2. Locked diffusion + Trained WA
 
 change guided_diffusion/respace.py line4/5 to gaussian_diffusiongaussian_diffusion_enhance
 
@@ -33,7 +33,7 @@ change guided_diffusion/unet.py 'class SuperResModel(UNetModel256):'
 
 locked in guided_diffusion/train_util.py line74
 
-5. ALL-in change train_util.py line74
+3. ALL-in change train_util.py line74
 
 ```python super_res_train.py```
 
