@@ -47,6 +47,14 @@ locked in guided_diffusion/train_util.py line74
 
 Our pre-train models on RICE2 with mn and mdsa are uploaded. [https://pan.baidu.com/s/1SvnPL7HRKqSK0zDixYpHow](https://pan.baidu.com/s/1SvnPL7HRKqSK0zDixYpHow) code：bean
 
+**Env**
+
+pytorch==1.13.0
+
+cuda==11.7
+
+python==3.10.6
+
 # CUHK-CR
 
 A novel multispectral Cloud Removal dataset
