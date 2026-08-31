@@ -59,7 +59,8 @@ python==3.10.6
 
 A novel multispectral Cloud Removal dataset
 
-Download link: [https://pan.baidu.com/s/1z2SgORYz5_t94kya8CeqiQ](https://pan.baidu.com/s/12yNH5eowjGA1fFM5sXUzBw) code:bean
+Download link (baidu): [https://pan.baidu.com/s/1z2SgORYz5_t94kya8CeqiQ](https://pan.baidu.com/s/12yNH5eowjGA1fFM5sXUzBw) code:bean
+Download link (huggingface): https://huggingface.co/littlebeen/DE/tree/main
 
 -CUHK-CR1 (The RGB images for thin dataset CUHK-CR1)
 
